@@ -1,9 +1,7 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
 const express = require('express');
 
 const app = express();
 const port = 4000;
-// eslint-disable-next-line import/no-extraneous-dependencies
 const cors = require('cors');
 
 app.use(express.urlencoded({ extended: true }));
